@@ -11,9 +11,9 @@ This project is built using JavaScript to solve different coding challenges from
 Here's a breakdown of how the solutions are structured:
 
 <ul>
- <li> **Basic Challenges**: Solutions utilizing fundamental JavaScript concepts such as loops, conditionals, and basic data structures</li>
- <li>**Intermediate Challenges**: Implementations showcasing more advanced topics like higher-order functions, closures, and asynchronous programming.</li>
- <li>**Advanced Challenges**: Solutions leveraging complex algorithms and data structures, as well as modern JavaScript features such as ES6 modules, Promises, and async/await</li>
+ <li><strong>Basic Challenges</strong>: Solutions utilizing fundamental JavaScript concepts such as loops, conditionals, and basic data structures</li>
+ <li><strong>Intermediate Challenges</strong>: Implementations showcasing more advanced topics like higher-order functions, closures, and asynchronous programming.</li>
+ <li><strong>Advanced Challenges</strong>: Solutions leveraging complex algorithms and data structures, as well as modern JavaScript features such as ES6 modules, Promises, and async/await</li>
 </ul>
 
 By working through these challenges, I honed my skills in algorithmic thinking, data structure manipulation, and efficient coding practices.
@@ -22,9 +22,9 @@ By working through these challenges, I honed my skills in algorithmic thinking, 
 In this section, I highlight some of the key optimizations made to improve the performance and readability of my solutions:
 
 <ul>
-  <li>**Refactoring**: Many solutions were revisited and refactored to enhance their efficiency. For example, I optimized a sorting algorithm from O(n^2) to O(n log n) by switching from bubble sort to merge sort</li>
-  <li>**Caching**: Implemented memoization in recursive solutions to significantly reduce the computation time for problems with overlapping subproblems</li>
-  <li>**Code Cleanliness**: Ensured all code adheres to clean coding standards, making it more maintainable and easier to understand</li>
+  <li><strong>Refactoring</strong>: Many solutions were revisited and refactored to enhance their efficiency. For example, I optimized a sorting algorithm from O(n^2) to O(n log n) by switching from bubble sort to merge sort</li>
+  <li><strong>Caching</strong>: Implemented memoization in recursive solutions to significantly reduce the computation time for problems with overlapping subproblems</li>
+  <li><strong>Code Cleanliness</strong>: Ensured all code adheres to clean coding standards, making it more maintainable and easier to understand</li>
 </ul>
 
 These optimizations not only improved the performance of my solutions but also provided valuable learning experiences in writing efficient code
@@ -33,10 +33,10 @@ These optimizations not only improved the performance of my solutions but also p
 Throughout this project, I encountered numerous learning moments that contributed to my growth as a developer:
 
 <ul>
-  <li>**Algorithm Efficiency**: Learned to analyze the time and space complexity of different algorithms, helping me choose the most efficient approach for each problem</li>
-  <li>**Language Proficiency**: Gained deeper insights into the capabilities of JavaScript, making me a more skilled developer</li>
-  <li>**Problem-Solving Skills**: Improved my ability to break down complex problems into manageable parts and devise effective solutions</li>
-  <li>**Continuous Improvement**: Embraced the importance of refactoring and optimizing code, understanding that the first solution is not always the best solution</li>
+  <li><strong>Algorithm Efficiency</strong>: Learned to analyze the time and space complexity of different algorithms, helping me choose the most efficient approach for each problem</li>
+  <li><strong>Language Proficiency</strong>: Gained deeper insights into the capabilities of JavaScript, making me a more skilled developer</li>
+  <li><strong>Problem-Solving Skills</strong>: Improved my ability to break down complex problems into manageable parts and devise effective solutions</li>
+  <li><strong>Continuous Improvement</strong>: Embraced the importance of refactoring and optimizing code, understanding that the first solution is not always the best solution</li>
 </ul>
 
 
