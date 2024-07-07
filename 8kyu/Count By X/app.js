@@ -14,7 +14,7 @@ countBy(2,5) === [2,4,6,8,10]
 
 const countBy = (x, n) => {
   let z = []
-    for (let i = 0; i < n; i++) {
+    for (let i = 1; i <= n; i++) {
       z.push(i * x)
     }
   return z;
