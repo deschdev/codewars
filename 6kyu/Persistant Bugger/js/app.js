@@ -1,28 +1,25 @@
 /* 
-CORRECT THE MISTAKES OF THE CHARACTER RECOGNITION SOFTWARE
+PERSISTANT BUGGER
 
-Complete the solution so that the function will break up camel casing, using a space between words.
+Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
 
 Ex:
-"camelCasing"  =>  "camel Casing"
-"identifier"   =>  "identifier"
-""             =>  ""
+39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit, there are 3 multiplications)
+999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2, there are 4 multiplications)
+4 --> 0 (because 4 is already a one-digit number, there is no multiplication)
 */
 
-const wordBreak = (str) => {
-  let newStr = ""
-  for (letter of str) {
-    if (letter == letter.toUpperCase()) {
-      newStr += " ";
-      newStr += letter;
-    } else {
-      newStr += letter;
-    }
+const persistence = num => {
+  let result = 0,
+      str = String(num)
+  while (str.length > 1) {
+    str = String([...str].reduce((prev, current) => prev * current))
+    result++
   }
-  return newStr;
+  return result;
 }
 
-console.log(wordBreak("camelCasing"), "|| should be: camel Casing");
-console.log(wordBreak("camelCasingTest"), "|| should be: camel Casing Test");
-console.log(wordBreak(""), "|| should be: ''");
-console.log(wordBreak("baklava"), "|| should be: baklava")
+console.log(persistence(39),3);
+console.log(persistence(4),0);
+console.log(persistence(25),2);
+console.log(persistence(999),4);
