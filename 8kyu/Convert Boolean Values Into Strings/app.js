@@ -1,16 +1,22 @@
 /* 
-COVERT BOOLEAN VALUES INTO STRINGS
+GRASSHOPPER MESSI GOALS
 
-Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+Messi is a soccer player with goals in three leagues:
+
+LaLiga
+Copa del Rey
+Champions
+Complete the function to return his total number of goals in all three leagues.
+
+Note: the input will always be valid.
+
+Ex:
+5, 10, 2  -->  17
 */
 
-const boolToWord = bool => {
-  if (bool == true) {
-    return "Yes"
-  } else {
-    return "No"
-  }
+const goals = (laLigaGoals, copaDelReyGoals, championLeagueGoals) => {
+  return laLigaGoals + copaDelReyGoals + championLeagueGoals;
 }
 
-console.log(boolToWord(true), 'Yes');
-console.log(boolToWord(false), 'No');
+console.log(goals(0,0,0), 0)
+console.log(goals(43, 10, 5), 58)
